@@ -25,3 +25,84 @@ code {
 .container {
   
 }
+
+
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .event-list {
+
+	margin: 0;
+  padding: 0;
+  max-width: 500px;
+ }
+ .event-list li{
+  list-style: none;
+	margin: 0;
+  padding: 0;
+ }
+ .event-list__event{
+		display: flex;
+		flex-direction: row;
+		align-items: stretch;
+		align-content: stretch;
+		background-color: #02544E;
+    margin-bottom: 20px;
+    border: 1px solid #02544E;
+	}
+
+	.event-list__date-wrapper{
+		align-self: flex-start;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 0.5em;
+	}
+
+	.event-list__date{
+		display: flex;
+		flex-direction: column;
+		background-color: #02544E;
+		color: #fff;
+		align-items: center;
+		margin: 0;
+	}
+
+	.event-list__day{
+		font-size: 40px;
+		line-height: 1em;
+	}
+
+	.event-list__month{
+		text-transform: uppercase;
+	}
+
+	.event-list__date-separator{
+		margin: 1em;
+		background-color: #fff;
+		height: 5px;
+		width: 33.33%;
+	}
+
+	.event-list__info{
+		background-color: #F5F3E2;
+		flex-grow: 10;
+		padding: 0.5em 1em;
+	}
+
+	.event-list__title{
+		font-size: 18px;
+		font-weight: 700;
+		margin-bottom: 10px;
+		color: darkslategray;
+	}
+
+	.event-list__content{
+		margin-top: 0;
+		font-size: 14px;
+	}
+

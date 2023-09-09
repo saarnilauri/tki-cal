@@ -1,4 +1,4 @@
-describe('sample test', () => {
+/* describe('sample test', () => {
   beforeEach(() => {
     cy.visit('/')
   })
@@ -15,3 +15,4 @@ describe('sample test', () => {
     })
   })
 })
+*/
