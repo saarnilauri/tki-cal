@@ -12,8 +12,8 @@ import {
 import DateView from "@components/dateTime";
 
 async function getEvents() {
-  const apiKey = "AIzaSyBIgpyQlAmJVkrvb6L3VT_LtlFtsGyh_v8";
-  const calendarId = "ntcfvf24vpl09dgvpkptjb4pqc@group.calendar.google.com"; // Replace with your Google Calendar ID
+  const apiKey = process.env.GOOGLE_CAL_API_KEY;
+  const calendarId = process.env.GOOGLE_CAL_ID;
   const today = new Date();
 
   // Calculate the start and end of the current week
